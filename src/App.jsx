@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Counter from './Components/Counter'
 import Home from './Components/Home'
 import Effects from './Components/Effects'
+import UseContext from './Components/UseContext'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/usestate" element={<Counter/>} />
       <Route path="/useeffect" element={<Effects/>} />
+      <Route path="/usecontext" element={<UseContext/>} />
     </Routes>
     </BrowserRouter>
    

@@ -16,6 +16,11 @@ function Home(){
                useEffect
                </button>
           </li>
+          <li className="home-list-item">
+               <button className="home-button" onClick={() => navigate('/usecontext')}>
+               useContext
+               </button>
+          </li>
           {/* add more buttons here */}
           </ul>
      </div>

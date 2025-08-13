@@ -1,0 +1,39 @@
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+
+  /* Center everything */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  text-align: center;
+}
+
+button {
+  background: #4cafef;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #2a9fd6;
+}
+
+.theme-light {
+  background: #ffffff;
+  color: #000000;
+}
+
+.theme-dark {
+  background: #333333;
+  color: #ffffff;
+}
