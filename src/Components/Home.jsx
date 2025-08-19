@@ -21,6 +21,11 @@ function Home(){
                useContext
                </button>
           </li>
+          <li className="home-list-item">
+               <button className="home-button" onClick={() => navigate('/useref')}>
+               useRef
+               </button>
+          </li>
           {/* add more buttons here */}
           </ul>
      </div>

@@ -3,6 +3,7 @@ import Counter from './Components/Counter'
 import Home from './Components/Home'
 import Effects from './Components/Effects'
 import UseContext from './Components/UseContext'
+import UseRef from './Components/UseRef'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/usestate" element={<Counter/>} />
       <Route path="/useeffect" element={<Effects/>} />
       <Route path="/usecontext" element={<UseContext/>} />
+      <Route path="/useref" element={<UseRef/>}/>
     </Routes>
     </BrowserRouter>
    
@@ -19,4 +21,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
